@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCK10 - Streamer Profissional</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="src/logo.png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="src/logo.png" alt="TCK10 Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#valorant-stats">Estatísticas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#setup">Setup</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#schedule">Horários</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sponsors">Promoções</a></li>
+                </ul>
+                <div class="navbar-social-wrapper">
+                  <ul class="navbar-nav navbar-social-row1 ms-3">
+                    <li class="nav-item"><a class="nav-link" href="https://www.twitch.tv/tck10" target="_blank"><i class="fab fa-twitch"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/tck10" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://loco.com/streamers/tcku10" target="_blank"><i class="fas fa-hippo"></i></a></li>
+                  </ul>
+                  <ul class="navbar-nav navbar-social-row2 ms-3">
+                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/tck10_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/tck10_" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.tiktok.com/@tck10_?" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section-modern">
+        <div class="hero-bg-animated"></div>
+        <div class="container hero-modern-container">
+            <div class="hero-profile-card animate-fade-in">
+                <img src="https://cdn-62cb22a2c1ac1835ecef9f37.closte.com/wp-content/uploads/2024/04/Snapinsta.app_367943042_1140398880249812_2032583123221126687_n_1080-e1712268800730.jpg" alt="TCK10" class="hero-profile-img-modern">
+            </div>
+            <div class="hero-main-modern animate-fade-in">
+                <div class="hero-title-row">
+                    <h1 class="hero-title-modern">TCK10</h1>
+                    <div class="badges-mobile-row d-flex d-md-none" style="gap:0.5rem;">
+                        <span class="badge-chip badge-cloud9"><img src="https://liquipedia.net/commons/images/thumb/a/a2/Cloud9_2023_full_allmode.png/600px-Cloud9_2023_full_allmode.png" alt="Cloud9"></span>
+                        <span class="badge-chip badge-radiant"><img src="https://static.wikia.nocookie.net/valorant/images/1/1a/Radiant_Rank.png/revision/latest/thumbnail/width/360/height/360?cb=20200623203621" alt="Radiant"></span>
+                    </div>
+                    <!-- badges desktop -->
+                    <span class="badge-chip badge-cloud9 d-none d-md-inline-flex"><img src="https://liquipedia.net/commons/images/thumb/a/a2/Cloud9_2023_full_allmode.png/600px-Cloud9_2023_full_allmode.png" alt="Cloud9"></span>
+                    <span class="badge-chip badge-radiant d-none d-md-inline-flex"><img src="https://static.wikia.nocookie.net/valorant/images/1/1a/Radiant_Rank.png/revision/latest/thumbnail/width/360/height/360?cb=20200623203621" alt="Radiant"></span>
+                </div>
+                <div class="hero-tagline-modern hide-mobile">Top 1 Valorant Brasil</div>
+                <div class="hero-subtitle-modern">
+                    <div class="hero-actions-modern flex-column align-items-center d-none d-md-flex" style="gap:1.5rem;">
+                        <a href="https://streamlabs.com/tck10/tip" class="btn-modern btn-donate" target="_blank"><i class="fas fa-crown"></i> Donate</a>
+                        <div class="d-flex justify-content-center" style="gap:1.2rem;">
+                            <a href="https://www.twitch.tv/tck10" class="btn-modern btn-twitch" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
+                            <a href="https://www.youtube.com/tck10" class="btn-modern btn-youtube" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+                            <a href="https://loco.com/streamers/tcku10" class="btn-modern btn-loco" target="_blank"><i class="fas fa-hippo"></i> Loco</a>
+                        </div>
+                    </div>
+                    <!-- Mobile: unchanged -->
+                    <div class="hero-social-row d-flex d-md-none" style="gap:0.5rem; justify-content:center; margin-bottom:0.7rem;">
+                        <a href="https://www.twitch.tv/tck10" class="btn-modern btn-twitch" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
+                        <a href="https://www.youtube.com/tck10" class="btn-modern btn-youtube" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+                        <a href="https://loco.com/streamers/tcku10" class="btn-modern btn-loco" target="_blank"><i class="fas fa-hippo"></i> Loco</a>
+                    </div>
+                    <a href="https://streamlabs.com/tck10/tip" class="btn-modern btn-donate btn-donate-big d-block d-md-none" target="_blank"><i class="fas fa-crown"></i> Donate</a>
+                </div>
+                <div class="hero-stats-modern hide-mobile" style="display:flex; flex-direction:row; justify-content:center; gap:2rem; margin:1.5rem 0 1.5rem 0;">
+                    <div class="stat-card-modern">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <span class="stat-number">698K+</span>
+                            <span class="stat-label">Seguidores</span>
+                        </div>
+                    </div>
+                    <div class="stat-card-modern">
+                        <i class="fas fa-trophy"></i>
+                        <div>
+                            <span class="stat-number">Radiant</span>
+                            <span class="stat-label">Rank Atual</span>
+                        </div>
+                    </div>
+                    <div class="stat-card-modern">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <span class="stat-number">Streams diárias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-modern-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-card about-bio">
+                    <h2 class="about-title"><i class="fas fa-user"></i> Sobre TCK10</h2>
+                    <p class="about-bio-text">Heitor "TCK10" Tomazela é um dos maiores streamers de VALORANT do Brasil, atualmente na Cloud9. Com mais de 698 mil seguidores na Twitch, TCK10 se destaca por sua consistência, carisma e habilidade, transmitindo todos os dias e construindo uma comunidade forte e engajada.</p>
+                    <div class="about-role">Streamer Profissional <span class="about-org">@Cloud9</span></div>
+                </div>
+                <div class="about-card about-stats">
+                    <h3 class="about-subtitle"><i class="fas fa-chart-bar"></i> Estatísticas</h3>
+                    <div class="about-stats-grid">
+                        <div class="about-stat"><i class="fas fa-users"></i><span>698K+</span><small>Seguidores Twitch</small></div>
+                        <div class="about-stat"><i class="fas fa-eye"></i><span>34M+</span><small>Visualizações</small></div>
+                        <div class="about-stat"><i class="fab fa-youtube"></i><span>309K+</span><small>Inscritos YouTube</small></div>
+                        <div class="about-stat"><i class="fas fa-video"></i><span>1.2K+</span><small>Vídeos</small></div>
+                        <div class="about-stat"><i class="fas fa-trophy"></i><span>Radiant</span><small>Rank Atual</small></div>
+                        <div class="about-stat"><i class="fas fa-gamepad"></i><span>Todos</span><small>Agente Principal</small></div>
+                    </div>
+                </div>
+                <div class="about-card about-curiosities">
+                    <h3 class="about-subtitle"><i class="fas fa-lightbulb"></i> Curiosidades</h3>
+                    <ul class="about-curiosities-list">
+                        <li><i class="fas fa-question-circle"></i> Por que TCK? <span>The Crying Kid, The Cringe King, The cu king</span></li>
+                        <li><i class="fas fa-gamepad"></i> Agente Favorito? <span>Não importa, sou muito bom com todos.</span></li>
+                        <li><i class="fas fa-user"></i> Informações Básicas <span>1,78m, 102kg, 23 anos, SP-SP</span></li>
+                        <li><i class="fas fa-dumbbell"></i> Quanto de braço? <span>Pra lá de meio metro</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="valorant-stats" class="valorant-modern-section">
+        <div class="container">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2.5rem;">
+                <h2 class="valorant-title" style="margin-bottom: 0;"><i class="fas fa-chart-line"></i> Estatísticas VALORANT</h2>
+                <a href="https://tracker.gg/valorant/profile/riot/C9%20TEJOSTERONA%23TCKU/overview?platform=pc&playlist=competitive&season=aef237a0-494d-3a14-a1c8-ec8de84e309c" class="btn-modern btn-tracker btn-tracker-small" target="_blank">
+                    <i class="fas fa-chart-bar"></i> Tracker.gg
+                </a>
+            </div>
+            <div class="valorant-stats-grid">
+                <div class="valorant-stat-card">
+                    <div class="stat-icon-bg"><i class="fas fa-crosshairs"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-value">1.45</span>
+                        <span class="stat-label">K/D Ratio</span>
+                    </div>
+                </div>
+                <div class="valorant-stat-card">
+                    <div class="stat-icon-bg"><i class="fas fa-bullseye"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-value">32%</span>
+                        <span class="stat-label">Headshot %</span>
+                    </div>
+                </div>
+                <div class="valorant-stat-card">
+                    <div class="stat-icon-bg"><i class="fas fa-trophy"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-value">58%</span>
+                        <span class="stat-label">Win Rate</span>
+                    </div>
+                </div>
+                <div class="valorant-stat-card">
+                    <div class="stat-icon-bg"><i class="fas fa-chart-line"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-value">245</span>
+                        <span class="stat-label">Average Score</span>
+                    </div>
+                </div>
+            </div>
+            <div class="valorant-agents-section">
+                <h3 class="valorant-subtitle"><i class="fas fa-user-astronaut"></i> Agentes Mais Jogados</h3>
+                <div class="valorant-agents-grid">
+                    <div class="agent-modern-card">
+                        <img src="https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png" alt="Jett">
+                        <div class="agent-info-modern">
+                            <span class="agent-name">Jett</span>
+                            <div class="agent-stat-row"><span class="agent-stat-label">Win Rate:</span> <span class="agent-stat-value">62%</span></div>
+                            <div class="agent-stat-row"><span class="agent-stat-label">K/D:</span> <span class="agent-stat-value">1.52</span></div>
+                        </div>
+                    </div>
+                    <div class="agent-modern-card">
+                        <img src="https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png" alt="Reyna">
+                        <div class="agent-info-modern">
+                            <span class="agent-name">Reyna</span>
+                            <div class="agent-stat-row"><span class="agent-stat-label">Win Rate:</span> <span class="agent-stat-value">58%</span></div>
+                            <div class="agent-stat-row"><span class="agent-stat-label">K/D:</span> <span class="agent-stat-value">1.48</span></div>
+                        </div>
+                    </div>
+                    <div class="agent-modern-card">
+                        <img src="https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png" alt="Breach">
+                        <div class="agent-info-modern">
+                            <span class="agent-name">Breach</span>
+                            <div class="agent-stat-row"><span class="agent-stat-label">Win Rate:</span> <span class="agent-stat-value">50%</span></div>
+                            <div class="agent-stat-row"><span class="agent-stat-label">K/D:</span> <span class="agent-stat-value">1.2</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="valorant-matches-section">
+                <h3 class="valorant-subtitle"><i class="fas fa-history"></i> Partidas Recentes</h3>
+                <div class="valorant-matches-grid">
+                    <div class="match-modern-card loss">
+                        <div class="match-map">Lotus</div>
+                        <div class="match-score">15-17</div>
+                        <div class="match-details">K/D/A: 19/27/21 &nbsp;|&nbsp; ACS: 194</div>
+                    </div>
+                    <div class="match-modern-card loss">
+                        <div class="match-map">Icebox</div>
+                        <div class="match-score">11-13</div>
+                        <div class="match-details">K/D/A: 17/18/8 &nbsp;|&nbsp; ACS: 210</div>
+                    </div>
+                    <div class="match-modern-card win">
+                        <div class="match-map">Ascent</div>
+                        <div class="match-score">13-9</div>
+                        <div class="match-details">K/D/A: 19/16/1 &nbsp;|&nbsp; ACS: 214</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Setup Section -->
+    <section id="setup" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-gears"></i> Setup TCK10</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="setup-card">
+                        <h3><i class="fas fa-microchip"></i> Hardware</h3>
+                        <ul class="setup-list">
+                            <li><span class="setup-label">Processador:</span> I9-13900KF</li>
+                            <li><span class="setup-label">Placa de Vídeo:</span> GeForce RTX 4090</li>
+                            <li><span class="setup-label">Placa Mãe:</span> Z790</li>
+                            <li><span class="setup-label">Fonte:</span> 1000W CORSAIR</li>
+                            <li><span class="setup-label">RAM:</span> x2 7200Mhz</li>
+                            <li><span class="setup-label">SSD:</span> 2TB SN850X</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="setup-card">
+                        <h3><i class="fas fa-keyboard"></i> Periféricos</h3>
+                        <ul class="setup-list">
+                            <li><span class="setup-label">Mouse:</span> Vaxee AW</li>
+                            <li><span class="setup-label">Teclado:</span> Wooting 60HE</li>
+                            <li><span class="setup-label">Fone:</span> Truthear Crinacle Zero</li>
+                            <li><span class="setup-label">Mousepad:</span> Artisan Zero XSOFT</li>
+                            <li><span class="setup-label">Microfone:</span> Shure SM7B + Goxlr mini</li>
+                            <li><span class="setup-label">Câmera:</span> Sony a6600</li>
+                            <li><span class="setup-label">Monitores:</span> 
+                                <ul class="monitor-list">
+                                    <li>Alienware AW2527 360hz</li>
+                                    <li>Asus 144hz</li>
+                                    <li>Superframe 240hz</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Videos Section -->
+    <section id="videos" class="py-5 videos-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-play-circle"></i> Vídeos Mais Assistidos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="video-card-flat">
+                        <div class="video-thumb-flat">
+                            <a href="https://www.youtube.com/watch?v=_odoK_tGQu0" target="_blank" class="play-btn-flat"><i class="fas fa-play"></i></a>
+                            <img src="https://i.ytimg.com/vi/_odoK_tGQu0/maxresdefault.jpg" alt="ANALISEI O MAIOR XITER DO RADIANTE!">
+                        </div>
+                        <div class="video-info-flat">
+                            <h3>ANALISEI O MAIOR XITER DO RADIANTE!</h3>
+                            <p>RIDICULO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="video-card-flat">
+                        <div class="video-thumb-flat">
+                            <a href="https://www.youtube.com/watch?v=wHE00XVR6kk" target="_blank" class="play-btn-flat"><i class="fas fa-play"></i></a>
+                            <img src="https://i.ytimg.com/vi/wHE00XVR6kk/maxresdefault.jpg" alt="1 RADIANTE vs 5 FERROS">
+                        </div>
+                        <div class="video-info-flat">
+                            <h3>1 RADIANTE vs 5 FERROS</h3>
+                            <p>Fui humilhado?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="video-card-flat">
+                        <div class="video-thumb-flat">
+                            <a href="https://www.youtube.com/watch?v=7LpLyuTCH5k" target="_blank" class="play-btn-flat"><i class="fas fa-play"></i></a>
+                            <img src="https://i.ytimg.com/vi/7LpLyuTCH5k/maxresdefault.jpg" alt="XAROLA ME PERSEGUIU">
+                        </div>
+                        <div class="video-info-flat">
+                            <h3>XAROLA ME PERSEGUIU</h3>
+                            <p>NO MEIO DA RANKED RADIANTE!!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="py-5">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-clock"></i> Horários das Streams</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="stream-schedule-card">
+                        <div class="schedule-icon-row">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="schedule-time-main">9:30 <span class="ampm">A.M</span> - 18:00 <span class="ampm">P.M</span></div>
+                        <div class="schedule-days-row">
+                            <span class="schedule-day-chip active">DOM</span>
+                            <span class="schedule-day-chip active">SEG</span>
+                            <span class="schedule-day-chip active">TER</span>
+                            <span class="schedule-day-chip active">QUA</span>
+                            <span class="schedule-day-chip active">QUI</span>
+                            <span class="schedule-day-chip active">SEX</span>
+                            <span class="schedule-day-chip active">SAB</span>
+                        </div>
+                        <div class="schedule-note">Streams todos os dias!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-share-alt"></i> Redes Sociais</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="social-links-modern">
+                        <a href="https://www.twitch.tv/tck10" class="social-link-modern twitch" target="_blank">
+                            <i class="fab fa-twitch"></i>
+                            <span>Twitch</span>
+                        </a>
+                        <a href="https://www.youtube.com/tck10" class="social-link-modern youtube" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                            <span>YouTube</span>
+                        </a>
+                        <a href="https://loco.com/streamers/tcku10" class="social-link-modern loco" target="_blank">
+                            <i class="fas fa-hippo"></i>
+                            <span>LOCO</span>
+                        </a>
+                        <a href="https://www.instagram.com/tck10_/" class="social-link-modern instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.tiktok.com/@tck10_?" class="social-link-modern tiktok" target="_blank">
+                            <i class="fab fa-tiktok"></i>
+                            <span>TikTok</span>
+                        </a>
+                        <a href="https://twitter.com/tck10_" class="social-link-modern twitter" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patrocínios e Promoções Section -->
+    <section id="sponsors" class="py-5 sponsors-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-gift"></i> Patrocínios e Promoções</h2>
+            <div class="row sponsors-grid">
+                <div class="col-md-4 mb-4">
+                    <a href="https://gsght.com/c/o77xe2" class="sponsor-card fragpunk" target="_blank">
+                        <span class="sponsor-logo"><i class="fas fa-bolt"></i></span>
+                        <span class="sponsor-name">FragPunk</span>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="https://bit.ly/OdysseyCupTcKTwitch" class="sponsor-card samsung" target="_blank">
+                        <span class="sponsor-logo"><i class="fas fa-tv"></i></span>
+                        <span class="sponsor-name">Samsung</span>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="https://c9.gg/secretlabunderlay" class="sponsor-card secretlab" target="_blank">
+                        <span class="sponsor-logo"><i class="fas fa-chair"></i></span>
+                        <span class="sponsor-name">SecretLab</span>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="https://c9.gg/zenni" class="sponsor-card zenni" target="_blank">
+                        <span class="sponsor-logo"><i class="fas fa-glasses"></i></span>
+                        <span class="sponsor-name">Zenni</span>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="https://store.cloud9.gg/products/secretlab-memory-foam-lumbar-pillow" class="sponsor-card c9store" target="_blank">
+                        <span class="sponsor-logo"><i class="fas fa-store"></i></span>
+                        <span class="sponsor-name">Cloud9 Store</span>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="https://www.gsuplementos.com.br/" class="sponsor-card growth" target="_blank">
+                        <span class="sponsor-logo"><i class="fas fa-dumbbell"></i></span>
+                        <span class="sponsor-name">Growth</span>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="https://panels.twitch.tv/panel-499928989-image-cfe7eebb-e9e7-4d4d-ac0e-c5fc99c2b6e5" class="sponsor-card c9prokit" target="_blank">
+                        <span class="sponsor-logo"><i class="fas fa-box"></i></span>
+                        <span class="sponsor-name">Cloud9 Pro Kit 2025</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 modern-footer">
+        <div class="container text-center">
+            <div class="footer-flex">
+                <img src="src/logo.png" alt="TCK10 Logo" class="footer-logo">
+                <div class="footer-text">
+                    <p>&copy; 2025 TCK10. Todos os direitos reservados. Created By <a href="https://marcoscyber.com" target="_blank">Marcos</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Botão de scroll para o topo -->
+    <button id="scrollTopBtn" class="scroll-top-btn" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script>
+    // Scroll to top button
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+            scrollTopBtn.style.display = 'flex';
+        } else {
+            scrollTopBtn.style.display = 'none';
+        }
+    });
+    scrollTopBtn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Navbar active section highlight on scroll
+    document.addEventListener('DOMContentLoaded', function() {
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+        function activateNavLink() {
+            let scrollPos = window.scrollY || window.pageYOffset;
+            let offset = 120; // Ajuste para altura da navbar
+            let found = false;
+            sections.forEach(section => {
+                const top = section.offsetTop - offset;
+                const bottom = top + section.offsetHeight;
+                if (scrollPos >= top && scrollPos < bottom && !found) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + section.id) {
+                            link.classList.add('active');
+                        }
+                    });
+                    found = true;
+                }
+            });
+            // Se não encontrou nenhuma seção (topo), ativa Home
+            if (!found) {
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#home') {
+                        link.classList.add('active');
+                    }
+                });
+            }
+        }
+        window.addEventListener('scroll', activateNavLink);
+        window.addEventListener('resize', activateNavLink);
+        activateNavLink();
+        // Ao clicar, scroll suave e highlight
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href.startsWith('#')) {
+                    const target = document.querySelector(href);
+                    if (target) {
+                        e.preventDefault();
+                        window.scrollTo({
+                            top: target.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html> 
