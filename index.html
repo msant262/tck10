@@ -69,21 +69,27 @@
                 </div>
                 <div class="hero-tagline-modern hide-mobile">Top 1 Valorant Brasil</div>
                 <div class="hero-subtitle-modern">
-                    <div class="hero-actions-modern flex-column align-items-center d-none d-md-flex" style="gap:1.5rem;">
-                        <a href="https://streamlabs.com/tck10/tip" class="btn-modern btn-donate" target="_blank"><i class="fas fa-crown"></i> Donate</a>
-                        <div class="d-flex justify-content-center" style="gap:1.2rem;">
+                    <div class="hero-actions-modern d-none d-md-flex flex-column align-items-center" style="gap:1.2rem;">
+                        <div class="hero-donate-row" style="display:flex; gap:0.7rem; justify-content:center;">
+                            <a href="https://streamlabs.com/tck10/tip" class="btn-modern btn-donate" target="_blank"><i class="fas fa-crown"></i> Donate</a>
+                            <a href="https://pixgg.com/tck10" class="btn-modern btn-pix" target="_blank"><i class="fas fa-money-bill-wave"></i> PIX</a>
+                        </div>
+                        <div class="hero-social-row-desktop" style="display:flex; gap:1.2rem; justify-content:center;">
                             <a href="https://www.twitch.tv/tck10" class="btn-modern btn-twitch" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
                             <a href="https://www.youtube.com/tck10" class="btn-modern btn-youtube" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
                             <a href="https://loco.com/streamers/tcku10" class="btn-modern btn-loco" target="_blank"><i class="fas fa-hippo"></i> Loco</a>
                         </div>
                     </div>
-                    <!-- Mobile: unchanged -->
+                    <!-- Mobile: Donate + PIX lado a lado -->
+                    <div class="hero-donate-row-mobile d-flex d-md-none" style="gap:0.7rem; justify-content:center; margin-bottom:0.7rem;">
+                        <a href="https://streamlabs.com/tck10/tip" class="btn-modern btn-donate btn-donate-big" target="_blank"><i class="fas fa-crown"></i> Donate</a>
+                        <a href="https://pixgg.com/tck10" class="btn-modern btn-pix btn-pix-big" target="_blank"><i class="fas fa-money-bill-wave"></i> PIX</a>
+                    </div>
                     <div class="hero-social-row d-flex d-md-none" style="gap:0.5rem; justify-content:center; margin-bottom:0.7rem;">
                         <a href="https://www.twitch.tv/tck10" class="btn-modern btn-twitch" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
                         <a href="https://www.youtube.com/tck10" class="btn-modern btn-youtube" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
                         <a href="https://loco.com/streamers/tcku10" class="btn-modern btn-loco" target="_blank"><i class="fas fa-hippo"></i> Loco</a>
                     </div>
-                    <a href="https://streamlabs.com/tck10/tip" class="btn-modern btn-donate btn-donate-big d-block d-md-none" target="_blank"><i class="fas fa-crown"></i> Donate</a>
                 </div>
                 <div class="hero-stats-modern hide-mobile" style="display:flex; flex-direction:row; justify-content:center; gap:2rem; margin:1.5rem 0 1.5rem 0;">
                     <div class="stat-card-modern">
@@ -432,6 +438,19 @@
                         <span class="sponsor-logo"><i class="fas fa-box"></i></span>
                         <span class="sponsor-name">Cloud9 Pro Kit 2025</span>
                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Profissional Section -->
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <h2 class="section-title"><i class="fas fa-envelope"></i> Contato Profissional</h2>
+                <div class="contact-content">
+                    <span class="contact-email"><i class="fas fa-at"></i> <a href="mailto:tck10business@gmail.com">tck10business@gmail.com</a></span>
+                    <button class="btn-copy-email" onclick="navigator.clipboard.writeText('tck10business@gmail.com')"><i class="fas fa-copy"></i> Copiar</button>
                 </div>
             </div>
         </div>
